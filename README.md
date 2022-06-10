@@ -1,8 +1,10 @@
 # MVVMBaseProtocols
 
+Projenin detaylarına ulaşmak için okumanız gereken [makale'ye](https://medium.com/@Teyhan/mvvm-base-protocols-9469970c202e) buradan ulaşabilirsiniz.
+
 Bu Swift paket'i MVVM mimarisini kullanmak için protocollerden ve gerekli bir kaç extension'dan oluşmaktadır.
 
-Nasıl kullanıldığına dair [örnek proje'ye](https://github.com/TeyhanYtu/Sample_CoreData_MVVM) bakılabilir.
+Nasıl kullanıldığına dair [örnek proje'ye](https://github.com/TeyhanYtu/Sample_CoreData_MVVM) bakabilirsiniz.
 
 ## Kullanımı
 
