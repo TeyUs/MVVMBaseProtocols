@@ -18,11 +18,9 @@ public protocol BaseViewProtocol{
 public extension BaseViewProtocol where Self: UIViewController{
     static func instantiate() -> Self{
         let storyboard = UIStoryboard(name: Self.storyboardName, bundle: nil)
-
         guard let viewController = storyboard.instantiateViewController(withIdentifier: Self.className)  as? Self else {
             fatalError("Storyboard cannot instantiated")
         }
-
         return viewController
     }
 
