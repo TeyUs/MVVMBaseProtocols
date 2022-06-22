@@ -7,5 +7,7 @@
 
 import Foundation
 
+/// It is left blank because there is no common rule for the model.
+/// Installed anyway for possible add-ons.
 public protocol BaseModelProtocol{
 }
